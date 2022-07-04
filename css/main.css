@@ -712,7 +712,7 @@ body {
   position: absolute;
   bottom: 0;
   right: -2px;
-  height: 60%;
+  height: 50%;
   width: 4px;
   background-color: blueviolet;
 }
@@ -756,7 +756,7 @@ body {
   position: absolute;
   top: 0;
   right: -2px;
-  height: 40%;
+  height: 50%;
   width: 4px;
   background-color: blueviolet;
 }
