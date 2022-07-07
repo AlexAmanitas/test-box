@@ -277,6 +277,12 @@ body {
           box-sizing: border-box;
 }
 
+@media screen and (max-width: 1201px) {
+  body {
+    background-color: tomato;
+  }
+}
+
 .section {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
