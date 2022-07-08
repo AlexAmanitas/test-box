@@ -283,11 +283,17 @@ body {
   }
 }
 
-.section {
+.container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1440px;
-  padding: 100px 72px;
+  padding: 0 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding: 100px 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (294px)[4];
@@ -587,7 +593,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 100px 200px 0;
+  padding: 100px 0;
   width: 1312px;
   height: 673px;
 }
